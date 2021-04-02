@@ -5,7 +5,7 @@ p {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: 20px;
 }
-body.home-page {
+body.home-page { /*Встановлення зображення фоном*/
     background-image: url("/pict/sp.jpg");
     background-repeat:no-repeat;
     background-position: center top;
@@ -32,7 +32,7 @@ button {
 button:hover {
     background-color: rgb(36, 17, 90);
 }
-button.one:before {
+button.one:before { /*Встановлення анімації кнопки*/
 	font-family: FontAwesome;
 	content:"\f0a9";
 	position: absolute;
