@@ -1,24 +1,29 @@
 .colortext {
-    color:blueviolet;
+    color: blueviolet;
 }
+
 p {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: 20px;
 }
-body.home-page { /*Встановлення зображення фоном*/
+
+body.home-page {
+    /*Встановлення зображення фоном*/
     background-image: url("/pict/sp.jpg");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
     background-size: 1368px;
 }
+
 body.other-page {
     background-image: url("/pict/sm.jpg");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
     background-size: 1368px;
 }
+
 button {
     font-size: 20px;
     border-radius: 10px;
@@ -29,28 +34,34 @@ button {
     padding: 10px 35 px;
     overflow: hidden;
 }
+
 button:hover {
     background-color: rgb(36, 17, 90);
 }
-button.one:before { /*Встановлення анімації кнопки*/
-	font-family: FontAwesome;
-	content:"\f0a9";
-	position: absolute;
-	top: 40px;
-	left: -50px;
-	transition: all 200ms ease;
+
+button.one:before {
+    /*Встановлення анімації кнопки*/
+    font-family: FontAwesome;
+    content: "\f0a9";
+    position: absolute;
+    top: 40px;
+    left: -50px;
+    transition: all 200ms ease;
 }
+
 button:hover:before {
-	left: 15px;
+    left: 15px;
 }
+
 button.two:before {
-	font-family: FontAwesome;
-	content:"\f0a8";
-	position: absolute;
-	top: 83px;
-	left: -30px;
-	transition: all 200ms ease;
+    font-family: FontAwesome;
+    content: "\f0a8";
+    position: absolute;
+    top: 83px;
+    left: -30px;
+    transition: all 200ms ease;
 }
+
 button:hover:before {
-	left: 15px;
+    left: 15px;
 }
